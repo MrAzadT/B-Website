@@ -1,5 +1,9 @@
 body {
+  /* margin: 0; */
   padding: 100px;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column; */
 }
 .submit-area {
   margin-top: 50px;
@@ -25,4 +29,17 @@ body {
   padding: 20px;
   /* text-align: center; */
   color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .dwb {
+    padding: 10px;
+  } */
+  .status {
+    margin: 20px 30px;
+  }
 }
